@@ -1,9 +1,19 @@
 [Tutorial-by-Alex](https://drive.google.com/drive/folders/1Te0Z4GQ5oq1zPeyxpZb-ReG48k9kvdlQ?usp=sharing)  
 
-### Dataset
-[Download dataset here](https://drive.google.com/file/d/1AUbJBbF7DQx4SLesUQJR1TwZJvVOS71I/view?usp=sharing
+### To train the custom Dataset
+* [Download dataset here](https://drive.google.com/file/d/1AUbJBbF7DQx4SLesUQJR1TwZJvVOS71I/view?usp=sharing
 )
-* Then put the unzipped folder in datasets folder.
+* Then put the unzipped folder *mini_competition_dataset* in **/datasets/** folder.
+
+### To evaluate the pretrained model
+* 1. Install detectron2. See [INSTALL.md](INSTALL.md).
+
+* 2. Download [here](https://drive.google.com/file/d/1j3V5xXgIh2KUPVSANgKwJoTEqajcvfJS/view?usp=sharing)
+
+	* Download and put it in **/tools/ouput/** folder
+
+* 3. To evaluate
+	* Go to **/tools/evaluate-MaskRCNN-SubT.ipynb**
 
 Detectron2 is Facebook AI Research's next generation software system
 that implements state-of-the-art object detection algorithms.
